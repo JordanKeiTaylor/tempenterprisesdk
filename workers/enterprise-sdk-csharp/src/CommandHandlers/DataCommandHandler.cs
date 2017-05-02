@@ -1,7 +1,7 @@
 ﻿using Improbable.Worker;
-using WorkerAPIFacade.Extension;
+using EnterpriseSDK.Extension;
 
-namespace WorkerAPIFacade.CommandHandlers
+namespace EnterpriseSDK.CommandHandlers
 {
     public abstract class DataCommandHandler<TCommand> : BaseCommandHandler<TCommand>
             where TCommand : ICommandMetaclass, new() {

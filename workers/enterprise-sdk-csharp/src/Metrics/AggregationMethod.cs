@@ -1,4 +1,4 @@
-﻿namespace WorkerAPI.Metrics {
+﻿namespace EnterpriseSDK.Metrics {
     public enum AggregationMethod
     {
         Sum,

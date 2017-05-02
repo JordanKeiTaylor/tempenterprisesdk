@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Improbable;
 using Improbable.Worker;
 
-namespace WorkerAPIFacade.Trackers
+namespace EnterpriseSDK.Trackers
 {
     internal class ComponentTrackerInternal<T> where T : IComponentMetaclass
     {

@@ -1,7 +1,7 @@
 ﻿
 using Improbable.Collections;
 
-namespace WorkerAPIFacade.Extension
+namespace EnterpriseSDK.Extension
 {
     public static class Optional
     {

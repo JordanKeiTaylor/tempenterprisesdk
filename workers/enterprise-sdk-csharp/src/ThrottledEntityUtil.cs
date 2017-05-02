@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Improbable.Worker;
 
-namespace WorkerAPIFacade
+namespace EnterpriseSDK
 {
     public class ThrottledEntityUtil : EntityUtil {
         internal class TaskQueue : IDisposable {

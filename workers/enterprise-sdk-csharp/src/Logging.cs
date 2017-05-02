@@ -1,7 +1,7 @@
 ﻿using System;
 using Improbable.Worker;
 
-namespace WorkerAPIFacade {
+namespace EnterpriseSDK {
     public class Logging {
 
         private static Connection _connection = null;

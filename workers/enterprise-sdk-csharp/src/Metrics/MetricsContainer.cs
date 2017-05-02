@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WorkerAPI.Metrics
+namespace EnterpriseSDK.Metrics
 {
     public class MetricsContainer : IMetricCollector, ILoadCollector,
                                     IMetricProvider, ILoadProvider {

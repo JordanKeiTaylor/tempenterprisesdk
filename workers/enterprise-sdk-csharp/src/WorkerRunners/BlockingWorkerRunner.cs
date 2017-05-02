@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Improbable.Worker;
 
-namespace WorkerAPIFacade.WorkerRunners
+namespace EnterpriseSDK.WorkerRunners
 {
     public class BlockingWorkerRunner : WorkerRunner
     {

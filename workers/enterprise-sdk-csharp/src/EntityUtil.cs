@@ -5,10 +5,10 @@ using Improbable;
 using Improbable.Collections;
 using Improbable.Worker;
 using Improbable.Worker.Query;
-using WorkerAPIFacade.Extension;
-using static WorkerAPIFacade.Extension.Optional;
+using EnterpriseSDK.Extension;
+using static EnterpriseSDK.Extension.Optional;
 
-namespace WorkerAPIFacade
+namespace EnterpriseSDK
 {
     public class EntityUtil
     {

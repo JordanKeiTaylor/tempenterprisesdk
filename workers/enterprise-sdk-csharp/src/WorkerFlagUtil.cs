@@ -1,7 +1,7 @@
 ﻿using System;
 using Improbable.Worker;
 
-namespace WorkerAPIFacade {
+namespace EnterpriseSDK {
     public class WorkerFlagUtil {
         private Connection _connection;
         public WorkerFlagUtil(Connection connection) {

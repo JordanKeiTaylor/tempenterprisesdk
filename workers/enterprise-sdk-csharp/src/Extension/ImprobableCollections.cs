@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WorkerAPIFacade.Extension
+namespace EnterpriseSDK.Extension
 {
     public static class ImprobableCollections
     {

@@ -1,6 +1,6 @@
 ﻿using Improbable.Worker;
 
-namespace WorkerAPIFacade.CommandHandlers
+namespace EnterpriseSDK.CommandHandlers
 {
     public interface CommandHandler<TCommand>
             where TCommand : ICommandMetaclass, new() {

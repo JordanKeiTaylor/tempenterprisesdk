@@ -3,7 +3,7 @@ using Improbable.Collections;
 using Improbable.Worker;
 using Improbable.Worker.Internal;
 
-namespace WorkerAPIFacade.Extension
+namespace EnterpriseSDK.Extension
 {
     public static class EntityExtensions {
 
