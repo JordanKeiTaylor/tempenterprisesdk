@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EnterpriseSDK</id>
-    <version>1.0.0</version>
+    <version>10.0.0</version>
     <authors>enterprise</authors>
     <owners>improbable</owners>
     <description>SpatialOS Worker API wrapper lib</description>
