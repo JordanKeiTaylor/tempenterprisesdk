@@ -1,0 +1,13 @@
+spatialos_worker_packages.json
+build/
+target/
+*.idea/
+*.log
+.DS_Store
+.protocache
+*.cache.xml
+*.spatialos/
+*.iml
+snapshots
+.improbable
+*.pb.json

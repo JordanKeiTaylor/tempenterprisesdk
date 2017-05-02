@@ -1,0 +1,4 @@
+worker-sdk
+spatialos.java.build.json
+pom.xml
+!worker/pom.xml

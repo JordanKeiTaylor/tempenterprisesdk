@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EnterpriseSDK</id>
+    <version>1.0.0</version>
+    <authors>enterprise</authors>
+    <owners>improbable</owners>
+    <description>SpatialOS Worker API wrapper lib</description>
+    <releaseNotes>Initial release. Compatible with SpatialOS worker SDK 10.2.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <dependencies>
+      <!-- <dependency id="SampleDependency" version="1.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/x64/ReleaseWindows/enterprise-sdk-csharp.dll" target="lib/net45" />
+  </files>
+</package>

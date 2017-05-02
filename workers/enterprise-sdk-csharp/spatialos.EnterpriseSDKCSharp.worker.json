@@ -1,0 +1,14 @@
+{
+  "build": {
+    "tasks_filename": "spatialos.csharp.build.json",
+    "generated_build_scripts_type": "csharp"
+  },
+  "bridge": {
+    "worker_attribute_set": {
+      "attributes": []
+    },
+    "entity_interest": {
+      "range_entity_interest": {}
+    }
+  }
+}
