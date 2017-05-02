@@ -4,7 +4,7 @@ using Improbable;
 using Improbable.Collections;
 using Improbable.Worker;
 
-namespace EnterpriseSDK
+namespace Improbable.Enterprise
 {
     public class RequestDispatcher
     {

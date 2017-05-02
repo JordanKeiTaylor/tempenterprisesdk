@@ -1,7 +1,7 @@
 ﻿
 using Improbable.Collections;
 
-namespace EnterpriseSDK.Extension
+namespace Improbable.Enterprise.Extension
 {
     public static class Optional
     {

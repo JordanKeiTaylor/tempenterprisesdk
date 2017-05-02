@@ -5,10 +5,10 @@ using Improbable;
 using Improbable.Collections;
 using Improbable.Worker;
 using Improbable.Worker.Query;
-using EnterpriseSDK.Extension;
-using static EnterpriseSDK.Extension.Optional;
+using Improbable.Enterprise.Extension;
+using static Improbable.Enterprise.Extension.Optional;
 
-namespace EnterpriseSDK
+namespace Improbable.Enterprise
 {
     public class EntityUtil
     {

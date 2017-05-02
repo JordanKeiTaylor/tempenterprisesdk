@@ -1,4 +1,4 @@
-﻿namespace EnterpriseSDK.Metrics {
+﻿namespace Improbable.Enterprise.Metrics {
     public enum AggregationMethod
     {
         Sum,

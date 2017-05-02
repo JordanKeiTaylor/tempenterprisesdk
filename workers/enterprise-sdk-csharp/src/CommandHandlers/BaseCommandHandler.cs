@@ -1,6 +1,6 @@
 ﻿using Improbable.Worker;
 
-namespace EnterpriseSDK.CommandHandlers
+namespace Improbable.Enterprise.CommandHandlers
 {
     public abstract class BaseCommandHandler<TCommand> : CommandHandler<TCommand>
         where TCommand : ICommandMetaclass, new()

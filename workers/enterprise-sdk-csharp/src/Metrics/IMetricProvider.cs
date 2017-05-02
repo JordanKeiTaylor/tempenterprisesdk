@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EnterpriseSDK.Metrics {
+namespace Improbable.Enterprise.Metrics {
     public interface IMetricProvider {
         Dictionary<string, double> SampleMetrics(bool reset);
     }

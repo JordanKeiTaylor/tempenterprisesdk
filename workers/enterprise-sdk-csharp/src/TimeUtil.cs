@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EnterpriseSDK
+namespace Improbable.Enterprise
 {
     public class TimeUtil
     {

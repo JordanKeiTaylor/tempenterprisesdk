@@ -1,6 +1,6 @@
 ﻿using Improbable;
 
-namespace EnterpriseSDK.Extension
+namespace Improbable.Enterprise.Extension
 {
     public static class EntityIdExtensions
     {

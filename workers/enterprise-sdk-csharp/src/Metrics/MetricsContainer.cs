@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EnterpriseSDK.Metrics
+namespace Improbable.Enterprise.Metrics
 {
     public class MetricsContainer : IMetricCollector, ILoadCollector,
                                     IMetricProvider, ILoadProvider {

@@ -1,6 +1,6 @@
 ﻿using Improbable.Worker;
 
-namespace EnterpriseSDK.WorkerRunners
+namespace Improbable.Enterprise.WorkerRunners
 {
     public abstract class WorkerRunner {
         protected Connection _connection;
