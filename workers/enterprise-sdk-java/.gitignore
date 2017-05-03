@@ -1,4 +1,6 @@
 worker-sdk
 spatialos.java.build.json
-pom.xml
-!worker/pom.xml
+.gradle
+
+build.gradle
+!worker/build.gradle
