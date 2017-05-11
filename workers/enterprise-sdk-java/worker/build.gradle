@@ -18,6 +18,8 @@ dependencies {
     compile files('../worker-sdk/dependencies/sdk-native/java-worker-sdk-native-macos-x64.jar')
     compile files('../worker-sdk/dependencies/sdk-native/java-worker-sdk-native-windows-x64.jar')
     compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.0.2'
+
+    testCompile 'junit:junit:4.12'
 }
 
 uploadArchives {
