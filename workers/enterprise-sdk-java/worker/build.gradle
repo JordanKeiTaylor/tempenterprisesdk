@@ -5,7 +5,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 group = 'improbable'
-version = '10.3.0-SNAPSHOT'
+version = '10.3.1-SNAPSHOT'
 
 repositories {
     maven { url "http://nexus.enterprise.improbable.io:8080/repository/maven-snapshots/" }
