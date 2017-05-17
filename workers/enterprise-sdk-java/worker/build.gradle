@@ -22,6 +22,16 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+
+// Add default user/pass so it's not needed if only building and not publishing to Nexus
+if (!hasProperty('nexusUser')) {
+    ext.nexusUser = ''
+}
+
+if (!hasProperty('nexusPassword')) {
+    ext.nexusPassword = ''
+}
+
 uploadArchives {
     repositories {
         mavenDeployer {
