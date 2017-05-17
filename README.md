@@ -2,7 +2,7 @@
 
 ##EnterpriseSDK for Java
 
-This is a library that wraps the SpatialOS Java worker sdk in order kickstart development.
+This is a library that wraps the SpatialOS Java worker sdk in order kick-start development.
 
 ###Source
 
@@ -19,7 +19,7 @@ When making changes please
 
 ##EnterpriseSDK for C#
 
-This is a library that wraps the SpatialOS C# worker sdk in order kickstart development.
+This is a library that wraps the SpatialOS C# worker sdk in order kick-start development.
 
 ###Source
 
