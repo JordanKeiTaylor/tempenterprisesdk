@@ -7,9 +7,12 @@ targetCompatibility = 1.8
 group = 'improbable'
 version = '10.3.1-SNAPSHOT'
 
+def artifactId = "enterprise-sdk"
+
 repositories {
-    maven { url "http://nexus.enterprise.improbable.io:8080/repository/maven-snapshots/" }
+    mavenLocal()
     mavenCentral()
+    maven { url "http://nexus.enterprise.improbable.io:8080/repository/maven-snapshots/" }
 }
 
 dependencies {
@@ -43,7 +46,13 @@ uploadArchives {
                     url: "http://nexus.enterprise.improbable.io:8080/repository/maven-snapshots/") {
                 authentication(userName: nexusUser, password: nexusPassword)
             }
-            pom.artifactId = "enterprise-sdk"
+            pom.artifactId = artifactId
         }
+    }
+}
+
+install {
+    repositories.mavenInstaller {
+        pom.artifactId = artifactId
     }
 }
